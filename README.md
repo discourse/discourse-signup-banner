@@ -1,1 +1,1 @@
-This component for connects into the core signup CTA and will show a pop up banner (as opposed to the normal block at the end of a topic) once the criteria has been met by the anonymous user having read at least two topics, and has spent at least two minutes reading.
+This component for connects into the core signup CTA and will show a pop up banner (in addition to the normal CTA block at the end of a topic) once the criteria has been met by the anonymous user having read at least two topics, and has spent at least two minutes reading.
