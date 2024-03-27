@@ -10,11 +10,21 @@
     </div>
     <div class="discourse-signup-banner-cta">
       <div class="discourse-signup-banner-cta-signup">
-        {{d-button action=(route-action "showCreateAccount") class="btn-primary sign-up-button" translatedLabel=(theme-setting "signup_text")}}
+        {{d-button
+          action=(route-action "showCreateAccount")
+          class="btn-primary sign-up-button"
+          translatedLabel=(theme-setting "signup_text")
+        }}
       </div>
       <div class="discourse-signup-banner-cta-actions">
-        {{d-button action="showBannerLater" translatedLabel=(theme-setting "reminder_text")}}
-        {{d-button action="dismissBanner" translatedLabel=(theme-setting "dismiss_text")}}
+        {{d-button
+          action="showBannerLater"
+          translatedLabel=(theme-setting "reminder_text")
+        }}
+        {{d-button
+          action="dismissBanner"
+          translatedLabel=(theme-setting "dismiss_text")
+        }}
       </div>
     </div>
   </div>
