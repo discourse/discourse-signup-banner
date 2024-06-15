@@ -1,8 +1,8 @@
 {
-  "about_url": null,
+  "about_url": "https://meta.discourse.org/t/signup-banner/210745",
   "license_url": null,
   "assets": {
   },
-  "name": "Discourse Signup Banner",
+  "name": "Signup Banner",
   "component": true
 }
