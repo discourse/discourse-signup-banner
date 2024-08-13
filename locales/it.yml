@@ -5,3 +5,5 @@
 # https://translate.discourse.org/
 
 it:
+  theme_metadata:
+    description: "Un componente per avvisare gli utenti senza un account di registrarsi"
