@@ -5,3 +5,5 @@
 # https://translate.discourse.org/
 
 nl:
+  theme_metadata:
+    description: "Een component om gebruikers zonder account te waarschuwen om zich te registreren"

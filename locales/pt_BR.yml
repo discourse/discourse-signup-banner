@@ -5,3 +5,5 @@
 # https://translate.discourse.org/
 
 pt_BR:
+  theme_metadata:
+    description: "Componente para alertar que os(as) usuários(as) sem conta devem criar uma"
