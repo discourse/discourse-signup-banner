@@ -8,38 +8,45 @@
   background-color: var(--secondary);
   width: 70%;
   padding: 1em 2em;
-  box-shadow: 0px 2px 8px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
   margin: 0 auto 1em auto;
   transition: opacity 0.2s ease-in-out;
   display: flex;
   border-radius: 8px;
+
   &-content {
     margin-right: 2em;
     width: 80%;
   }
+
   &-cta {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 20%;
+
     &-signup {
       font-size: $font-up-1;
       display: flex;
       justify-content: center;
+
       .sign-up-button {
         width: 100%;
       }
     }
+
     &-actions {
       margin-top: 1em;
       display: flex;
       justify-content: space-between;
       font-size: $font-down-1;
       color: var(--tertiary-low);
+
       .btn {
         background: transparent;
         color: var(--primary-medium);
         padding: 0;
+
         &:hover {
           background: transparent;
           color: var(--primary);

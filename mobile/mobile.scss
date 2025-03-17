@@ -1,21 +1,26 @@
 .discourse-signup-banner {
   flex-direction: column;
+
   &-content {
     width: 100%;
     margin: 0;
+
     &-header {
       font-size: $font-up-3;
     }
   }
+
   &-cta {
     margin-top: 1em;
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
     align-items: center;
+
     &-signup {
       width: 40%;
     }
+
     &-actions {
       width: 50%;
       margin: 0;
