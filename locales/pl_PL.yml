@@ -5,3 +5,5 @@
 # https://translate.discourse.org/
 
 pl_PL:
+  theme_metadata:
+    description: "Komponent powiadamiający użytkowników bez konta, aby się zarejestrowali."
