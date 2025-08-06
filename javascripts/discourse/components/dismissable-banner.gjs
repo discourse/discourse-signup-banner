@@ -62,11 +62,11 @@ export default class DismissableBanner extends Component {
           </div>
           <div class="discourse-signup-banner-cta-actions">
             <DButton
-              @action="showBannerLater"
+              @action={{this.showBannerLater}}
               @translatedLabel={{settings.reminder_text}}
             />
             <DButton
-              @action="dismissBanner"
+              @action={{this.dismissBanner}}
               @translatedLabel={{settings.dismiss_text}}
             />
           </div>
