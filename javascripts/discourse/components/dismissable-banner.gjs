@@ -1,9 +1,9 @@
+/* eslint-disable ember/no-classic-components */
 import Component from "@ember/component";
-import { action } from "@ember/object";
+import { action, computed } from "@ember/object";
 import { tagName } from "@ember-decorators/component";
 import DButton from "discourse/components/d-button";
 import routeAction from "discourse/helpers/route-action";
-import discourseComputed from "discourse/lib/decorators";
 
 @tagName("")
 export default class DismissableBanner extends Component {
@@ -23,9 +23,9 @@ export default class DismissableBanner extends Component {
     this.set("hidden", false);
   }
 
-  @discourseComputed("hidden")
-  shouldShow(hidden) {
-    return !hidden;
+  @computed("hidden")
+  get shouldShow() {
+    return !this.hidden;
   }
 
   @action
